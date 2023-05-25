@@ -2,18 +2,22 @@
   "name": "my-electron-project",
   "version": "1.0.0",
   "description": "Hello World",
-  "main": "main",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coderFlyHorse/electron-project.git"
   },
-  "author": "Barter",
+  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/coderFlyHorse/electron-project/issues"
   },
-  "homepage": "https://github.com/coderFlyHorse/electron-project#readme"
+  "homepage": "https://github.com/coderFlyHorse/electron-project#readme",
+  "devDependencies": {
+    "electron": "^24.4.0"
+  }
 }
